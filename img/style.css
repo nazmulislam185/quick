@@ -1,0 +1,152 @@
+*{margin: 0; padding: 0;}
+.cointainer_full {
+    width: 98%;
+    margin: 0 auto;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.cointainer {
+    width: 1200px;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+body {
+    font-family: sans-serif;
+}
+.skyblue {
+    color: #008AFF;
+}
+.halkabeguni {
+    color: #142B5A;
+}
+.clearfix {
+    clear: both;
+}
+.header_nav_bg {    
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+header {
+    float: left;
+}
+.logo {
+    padding: 25px;
+    cursor: pointer;
+}
+.logo img {
+    height: 30px;
+}
+nav {
+    float: right;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 20px;
+    color: #7d7c7c;
+    font-size: 16px;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #008AFF;
+}
+
+#up {
+    padding-top: 45px;
+    text-align: center;
+}
+#up h2 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+#up p {
+    color: #7d7c7c;
+    margin-bottom: 50px;
+}
+
+#down {
+    display: flex;
+    width: 1030px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+#down div {
+    width: 500px;
+}
+.left {
+    text-align: right;
+    margin-right: 30px;
+}
+.left h2 {
+    font-size: 60px;
+    color: #F15666;
+    margin-bottom: 20px;
+}
+.left p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.right h1{
+    font-size: 50px;
+}
+footer {
+    padding: 80PX;
+    display: flex;
+}
+.grid {
+    width: 33.33%;
+    margin-right: 35px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #FDEBED;
+    color: #122958;
+}
+.grid img {
+    height: 200px;
+}
+.grid h2 {
+    font-size: 23px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.grid p {
+    line-height: 1.8em;
+    padding-bottom: 30px;
+}
+.grid2 {
+    background-color: #EBF9F4;
+}
+.grid3 {
+    background-color: #FFF7E8;
+}
+#f_wrap{
+    text-align: center;
+}
+.download {
+    color: #fff;
+    background-color: #007bff;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: capitalize;
+    padding: 20px 35px;
+    font-size: 1.6rem;
+    border-radius: .25rem;
+    transition: color .15s;
+    text-decoration: none;
+}
